@@ -1,0 +1,43 @@
+a=input ('Your mark=')
+
+if a>b:
+    print ('Greater')
+elif a==b:
+    print ('Equal')
+
+else:
+    print ('Less than')
+
+==========================
+a=int(input ('Your mark='))
+if a>85:
+    print ('Distinction')
+elif a>65:
+    print ('Merit')
+elif a>50:
+    print ('Pass')
+
+
+elif a<50:
+    print ('fail')
+============================
+def login():
+    username1 = "Admin"
+    password2= "asd123"
+    
+    username = input("Enter username: ")
+    password = input("Enter password: ")
+
+    
+   
+
+    if username == username1 and password == password2:
+        print("Login successful!")
+    else:
+        print("Invalid username or password. Please try again.")
+        login()
+
+
+login()
+========================================================================
+
