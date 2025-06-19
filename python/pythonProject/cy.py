@@ -1,5 +1,6 @@
 import random
 
+
 class CyberHygieneEducator:
     def __init__(self):
         self.quizzes = [
@@ -67,6 +68,7 @@ class CyberHygieneEducator:
             print("Daily Reminder: Stay safe online by practicing good cyber hygiene!")
         elif schedule == "weekly":
             print("Weekly Reminder: Review your cyber hygiene practices and stay protected!")
+
 
 if __name__ == "__main__":
     educator = CyberHygieneEducator()
